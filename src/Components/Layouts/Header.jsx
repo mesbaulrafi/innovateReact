@@ -21,7 +21,7 @@ const Header = () => {
               <li className="flex items-center pr-12">
                 {" "}
                 <Link to={"/"}>
-                  Home <FaChevronDown className="pl-3 text-2xl flex" />
+                  Home <FaChevronDown className="pl-3 text-2xl " />
                 </Link>{" "}
               </li>
               <li className="flex items-center pr-12">
