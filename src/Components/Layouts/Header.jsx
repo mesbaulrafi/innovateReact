@@ -12,7 +12,7 @@ const Header = () => {
       <Containar>
         <Flex className={"justify-between"}>
           <div className="">
-            <Link to={"/"}>
+            <Link to={"/"} className="">
               <Image src={logo} />
             </Link>
           </div>
@@ -20,37 +20,37 @@ const Header = () => {
             <ul className="flex ">
               <li className="flex items-center pr-12">
                 {" "}
-                <Link to={"/"}>
+                <Link to={"/"} className="flex items-center">
                   Home <FaChevronDown className="pl-3 text-2xl " />
                 </Link>{" "}
               </li>
               <li className="flex items-center pr-12">
                 {" "}
-                <Link to={"/about"}>
+                <Link to={"/about"} className="flex items-center">
                   About <FaChevronDown className="pl-3 text-2xl" />
                 </Link>{" "}
               </li>
               <li className="flex items-center pr-12">
                 {" "}
-                <Link to={"/service"}>
+                <Link to={"/service"} className="flex items-center">
                   Service <FaChevronDown className="pl-3 text-2xl" />
                 </Link>{" "}
               </li>
               <li className="flex items-center pr-12">
                 {" "}
-                <Link to={"/portfolio"}>
+                <Link to={"/portfolio"} className="flex items-center">
                   Portfolio <FaChevronDown className="pl-3 text-2xl" />
                 </Link>{" "}
               </li>
               <li className="flex items-center pr-12">
                 {" "}
-                <Link to={"/price"}>
+                <Link to={"/price"} className="flex items-center">
                   Price <FaChevronDown className="pl-3 text-2xl" />
                 </Link>{" "}
               </li>
               <li className="flex items-center pr-12">
                 {" "}
-                <Link to={"/blog"}>
+                <Link to={"/blog"} className="flex items-center">
                   Blog <FaChevronDown className="pl-3 text-2xl" />
                 </Link>{" "}
               </li>

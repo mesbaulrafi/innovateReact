@@ -13,6 +13,7 @@ import Price from './Components/Pages/Price';
 import Blog from './Components/Pages/Blog';
 import Contact from './Components/Pages/Contact';
 
+
 function App() {
   const [count, setCount] = useState(0)
 
