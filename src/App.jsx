@@ -12,6 +12,14 @@ import Portfolio from './Components/Pages/Portfolio';
 import Price from './Components/Pages/Price';
 import Blog from './Components/Pages/Blog';
 import Contact from './Components/Pages/Contact';
+import Benifit from './Components/Pages/Benifit';
+import Pricing from './Components/Pages/Pricing';
+import TaskManagement from './Components/Pages/TaskManagement';
+import Companygrowth from './Components/Pages/Companygrowth';
+import Timetracking from './Components/Pages/Timetracking';
+import Customerservice from './Components/Pages/Customerservice';
+import Accessibility from './Components/Pages/Accessibility';
+
 
 
 function App() {
@@ -29,6 +37,13 @@ function App() {
           <Route path="/blog" element={<Blog />} /> 
           <Route path="*" element={<Error />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/benifit" element={<Benifit />} />
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/taskManagement" element={<TaskManagement />} />
+          <Route path="/companygrowth" element={<Companygrowth />} />
+          <Route path="/timetracking" element={<Timetracking />} />
+          <Route path="/customerservice" element={<Customerservice />} />
+          <Route path="/accessibility" element={<Accessibility />} />
         </Route>
       </Routes>
     </>
